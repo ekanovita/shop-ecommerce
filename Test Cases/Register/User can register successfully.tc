@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User can register successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b852d3be-3795-4a14-b425-4ec51729c64e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>38b150ec-57ab-4393-8466-c715baa90b5d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.email</defaultValue>
+      <description></description>
+      <id>ffbd34c4-21cc-45ce-8069-1f6fb9513494</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>be980d3b-3bf3-43bd-894e-8e1a241b66fd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.confirmPassword</defaultValue>
+      <description></description>
+      <id>3d87b12a-4bf1-4154-8117-55372ed4b512</id>
+      <masked>false</masked>
+      <name>confirmPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.address</defaultValue>
+      <description></description>
+      <id>dca89bc5-4595-447f-9aa7-d474a462de33</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.phoneNumber</defaultValue>
+      <description></description>
+      <id>ac5784df-8ec5-47b8-8dda-50c25c56f8dd</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+</TestCaseEntity>
