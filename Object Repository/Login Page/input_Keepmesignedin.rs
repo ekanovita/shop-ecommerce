@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Keepmesignedin</name>
+   <tag></tag>
+   <elementGuidId>7607b115-a32c-449d-9421-1f88eeb5d143</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.um-icon-android-checkbox-outline-blank</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-313']/div/div/div/form/div[2]/div/div/label/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>um-icon-android-checkbox-outline-blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-313&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;um um-login um-298 uimob500&quot;]/div[@class=&quot;um-form&quot;]/form[1]/div[@class=&quot;um-col-alt&quot;]/div[@class=&quot;um-field um-field-c&quot;]/div[@class=&quot;um-field-area&quot;]/label[@class=&quot;um-field-checkbox&quot;]/span[@class=&quot;um-field-checkbox-state&quot;]/i[@class=&quot;um-icon-android-checkbox-outline-blank&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-313']/div/div/div/form/div[2]/div/div/label/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+   </webElementXpaths>
+</WebElementEntity>
