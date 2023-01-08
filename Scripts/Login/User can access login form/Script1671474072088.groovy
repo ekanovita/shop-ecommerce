@@ -17,30 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Register/User can access register page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Onboarding/User can access website successfully'), [:], FailureHandling.STOP_ON_FAILURE)
 
-int RN;
-RN = (int)(Math.random()*500)
-GlobalVariable.username = 'qatest'+RN
-WebUI.setText(findTestObject('Register Page/txt_Username'), GlobalVariable.username)
+WebUI.waitForElementPresent(findTestObject('Login Page/h1_Login'), 1)
 
-GlobalVariable.email = 'ekatesting122022+'+RN+'@gmail.com'
-WebUI.setText(findTestObject('Register Page/txt_Email'), GlobalVariable.email)
+WebUI.verifyElementPresent(findTestObject('Login Page/h1_Login'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Login Page/lbl_Username'), 0)
 
-WebUI.setText(findTestObject('Register Page/txt_PhoneNumber'), GlobalVariable.phoneNumber)
+WebUI.verifyElementPresent(findTestObject('Login Page/lbl_Password'), 0)
 
-WebUI.setText(findTestObject('Register Page/txt_Password'), GlobalVariable.password)
+WebUI.verifyElementPresent(findTestObject('Login Page/txt_Username'), 0)
 
-WebUI.setText(findTestObject('Register Page/txt_ConfirmPassword'), GlobalVariable.confirmPassword)
+WebUI.verifyElementPresent(findTestObject('Login Page/txt_Password'), 0)
 
-WebUI.setText(findTestObject('Register Page/txt_Address'), GlobalVariable.address)
+WebUI.verifyElementPresent(findTestObject('Login Page/input_Keepmesignedin'), 0)
 
-WebUI.click(findTestObject('Register Page/btn_Register'))
+WebUI.verifyElementPresent(findTestObject('Login Page/span_Keepmesignedin'), 0)
 
-WebUI.waitForElementPresent(findTestObject('My Account Page/menu_Myaccount'), 2)
+WebUI.verifyElementPresent(findTestObject('Login Page/btn_Login'), 0)
 
-WebUI.verifyElementText(findTestObject('My Account Page/h1_userLogin'), GlobalVariable.username)
-
-//WebUI.callTestCase(findTestCase('Onboarding/User can close the browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Login Page/btn_Forgotyourpassword'), 0)
 

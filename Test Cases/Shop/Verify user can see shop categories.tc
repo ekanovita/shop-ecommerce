@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify user can see shop categories</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a829b427-8447-4254-adae-9a94700e247a</testCaseGuid>
+   <variable>
+      <defaultValue>'STARTER SET'</defaultValue>
+      <description></description>
+      <id>eae886ab-1dca-482c-8b8c-c7f3384da948</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+</TestCaseEntity>

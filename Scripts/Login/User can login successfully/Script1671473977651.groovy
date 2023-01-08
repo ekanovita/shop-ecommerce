@@ -17,30 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Register/User can access register page'), [:], FailureHandling.STOP_ON_FAILURE)
-
-int RN;
-RN = (int)(Math.random()*500)
-GlobalVariable.username = 'qatest'+RN
-WebUI.setText(findTestObject('Register Page/txt_Username'), GlobalVariable.username)
-
-GlobalVariable.email = 'ekatesting122022+'+RN+'@gmail.com'
-WebUI.setText(findTestObject('Register Page/txt_Email'), GlobalVariable.email)
-
-
-WebUI.setText(findTestObject('Register Page/txt_PhoneNumber'), GlobalVariable.phoneNumber)
-
-WebUI.setText(findTestObject('Register Page/txt_Password'), GlobalVariable.password)
-
-WebUI.setText(findTestObject('Register Page/txt_ConfirmPassword'), GlobalVariable.confirmPassword)
-
-WebUI.setText(findTestObject('Register Page/txt_Address'), GlobalVariable.address)
-
-WebUI.click(findTestObject('Register Page/btn_Register'))
-
-WebUI.waitForElementPresent(findTestObject('My Account Page/menu_Myaccount'), 2)
-
-WebUI.verifyElementText(findTestObject('My Account Page/h1_userLogin'), GlobalVariable.username)
-
-//WebUI.callTestCase(findTestCase('Onboarding/User can close the browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/User can access login form'), [:], FailureHandling.STOP_ON_FAILURE)
 
