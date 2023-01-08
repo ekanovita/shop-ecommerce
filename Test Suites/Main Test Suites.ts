@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Register User</name>
+   <name>Main Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -58,5 +58,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register/User can not register if not input any field in register form</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dcb9c56-d664-470c-8eb8-b9fb829aeb3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shop/Verify user can see shop categories</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eae886ab-1dca-482c-8b8c-c7f3384da948</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
